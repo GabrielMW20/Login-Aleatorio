@@ -1,0 +1,167 @@
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+#controle_nav {
+    font-size: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+#item-nav {
+    font-weight: bold;
+    color: black;
+    transition: 0.2s;
+}
+
+#item-nav:hover {
+    color: white;
+    transition: 0.2s;
+}
+
+main #h1_login {
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.btn_form {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: #0dcaf0;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 10px;
+    padding: 8px 50px;
+    transition: 0.2s;
+    box-shadow: 2px 2px 6px 1px;
+}
+
+.btn_form:hover {
+    color: white;
+    transition: 0.2s;
+}
+
+footer {
+    border-top: 1px solid rgb(153, 153, 153);
+}
+
+#carousel-pagina-principal {
+    height: 300px;
+}
+
+#favoritar_item {
+    color: black;
+}
+
+#cadastro-emoji {
+    color: black;
+    background-color: coral;
+    font-size: 25px;
+}
+
+#inicial-emoji {
+    color: black;
+    background-color: coral;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 2px 2px 6px 1px;
+}
+
+#inicial-emoji:hover {
+    color: chartreuse;
+}
+
+#cadastro-emoji:hover {
+    color: chartreuse;
+}
+
+
+.fundo-img-icon {
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-size: 600px;
+    text-align: center;
+    opacity: 0.2;
+}
+
+.hero-section-play {
+    background: rgb(0, 22, 119);
+    background: linear-gradient(90deg, rgba(0, 22, 119, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 22, 119, 1) 100%);
+    color: white;
+}
+
+.hero-section-xbox {
+    background: rgb(43, 126, 0);
+    background: linear-gradient(90deg, rgba(43, 126, 0, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(43, 126, 0, 1) 100%);
+    color: white;
+}
+
+.hero-section-nintendo {
+    background: rgb(81, 228, 255);
+    background: linear-gradient(90deg, rgba(81, 228, 255, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(255, 106, 106, 1) 100%);
+    color: white;
+}
+
+.hero-section-pc {
+    background: rgb(121, 121, 121);
+    background: linear-gradient(90deg, rgba(121, 121, 121, 1) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(121, 121, 121, 1) 100%);
+    color: white;
+}
+
+#btn-hero-hardware {
+    color: white;
+    padding: 8px 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #0dcaf0;
+    transition: 0.2s;
+    box-shadow: 2px 2px 6px 1px;
+}
+
+#btn-hero-hardware:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+#btn-hero-hardware-new:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+#btn-hero-hardware-new {
+    color: white;
+    padding: 8px 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #0dcaf0;
+    transition: 0.2s;
+    box-shadow: 2px 2px 6px 1px;
+}
+
+.hero-section-xbox {
+    height: 440px;
+}
+
+#carousel-img-hardware {
+    height: 422px;
+}

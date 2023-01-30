@@ -1,0 +1,65 @@
+@media (max-width: 767px) {
+    #minhas-infos {
+        display: none;
+    }
+
+    .carousel-item img {
+        height: 100vh;
+    }
+
+    .p-btn-hardware {
+        display: none;
+    }
+}
+
+@media (min-width: 767px) {
+    .p-btn-hardware-new {
+        display: none;
+    }
+}
+
+@media (max-width: 520px) {
+    #fechar-compra {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 300px) {
+    .fundo-img-icon {
+        font-size: 330px;
+    }
+}
+
+@media (min-width: 620px) {
+    .fundo-img-icon {
+        font-size: 600px;
+    }
+}
+
+@media (max-width: 412px) {
+    #botoes-cadastro {
+        display: none;
+    }
+
+    #botoes-cadastro-new-top {
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 413px) {
+    .botoes-cadastro-new {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #carousel-img-hardware {
+        height: 300px;
+    }
+}
+
+@media (max-width: 420px) {
+    #carousel-img-hardware {
+        height: 230px;
+    }
+}
